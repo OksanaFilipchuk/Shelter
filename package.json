@@ -1,0 +1,39 @@
+{
+  "name": "oksanafilipchuk-jsfe2022q1",
+  "version": "1.0.0",
+  "description": "Private repository for @oksanafilipchuk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "sass --watch shelter/pages/main/style.scss shelter/pages/main/style.css",
+    "style2": "sass --watch shelter/pages/pets/style.scss shelter/pages/pets/style.css",
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/oksanafilipchuk-JSFE2022Q1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/oksanafilipchuk-JSFE2022Q1/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/oksanafilipchuk-JSFE2022Q1#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "path": "^0.12.7",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
+}
